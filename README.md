@@ -47,7 +47,6 @@ smpl_models/
 
 Prepare the DeepFashion dataset with the following structure:
 
-```markdown
 ```text
 DeepFashion/
 ├── images/           # Image files
