@@ -37,7 +37,7 @@ pip install -e .
 1. Download SMPL model from [SMPL official website](https://smpl.is.tue.mpg.de/)
 2. Place the model file in the following structure:
 
-```
+```text
 smpl_models/
 └── smpl/
     └── SMPL_NEUTRAL.pkl
@@ -47,7 +47,8 @@ smpl_models/
 
 Prepare the DeepFashion dataset with the following structure:
 
-```
+```markdown
+```text
 DeepFashion/
 ├── images/           # Image files
 ├── segm/             # Segmentation masks
