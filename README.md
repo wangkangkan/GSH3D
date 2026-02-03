@@ -86,6 +86,29 @@ python train_deepfashion_3dgs_multidisc_gema.py \
     --N_samples 48
 ```
 
+### Inference
+
+Generate multi-view images from trained model:
+
+```bash
+# Generate multi-view static images (default 3 views)
+python generation_demo.py \
+    --expname xxxx \
+    --ckpt xxxx \
+    --identities 16 \
+    --style_dim 512 \
+    --renderer_spatial_output_dim 512 256
+
+# Generate rotation videos
+python generation_demo.py \
+    --expname xxxx \
+    --ckpt xxxx \
+    --identities 8 \
+    --style_dim 512 \
+    --renderer_spatial_output_dim 512 256 \
+    --render_video
+```
+
 ## Citation
 
 
